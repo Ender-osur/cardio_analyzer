@@ -1,0 +1,39 @@
+{
+  "home": {
+    "title": "Bienvenido a Holter App",
+    "description": "Monitorea la salud de tu corazón con facilidad."
+  },
+  "settings": {
+    "title": "Configuraciones",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "profile": {
+    "title": "Perfil",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "logout": "Cerrar sesión"
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "submit": "Enviar",
+    "help": "Ayuda",
+    "reset": "Restablecer contraseña",
+    "signup": "Registrarse"
+  },
+  "signup": {
+    "title": "Registrarse",
+    "username": "Nombre de usuario",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "submit": "Registrar"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Dirección de correo electrónico no válida",
+    "passwordMismatch": "Las contraseñas no coinciden"
+  }
+}

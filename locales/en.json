@@ -1,0 +1,48 @@
+{
+  "home": {
+    "title": "Welcome to Holter App",
+    "description": "Monitor your heart health with ease."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Submit",
+    "help":"Help",
+    "reset":"Reset Password",
+    "signup":"Sign up"
+  },
+  "signup": {
+    "title": "Sign up",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Register",
+    "back"  : "Back to Login",
+    "reset":"Reset Password"
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "email": "Email",
+    "submit": "Submit",
+    "back": "Back to Login",
+    "reset": "Reset Password"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordMismatch": "Passwords do not match"
+  }
+}

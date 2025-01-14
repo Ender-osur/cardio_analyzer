@@ -20,7 +20,7 @@
     "password": "Password",
     "submit": "Submit",
     "help":"Help",
-    "reset":"Reset Password",
+    "reset":"Reset password",
     "signup":"Sign up"
   },
   "signup": {
@@ -31,7 +31,8 @@
     "confirmPassword": "Confirm Password",
     "submit": "Register",
     "back"  : "Back to Login",
-    "reset":"Reset Password"
+    "reset":"Reset password",
+    "login":"Login"
   },
   "resetPassword": {
     "title": "Reset Password",
@@ -44,5 +45,13 @@
     "required": "This field is required",
     "invalidEmail": "Invalid email address",
     "passwordMismatch": "Passwords do not match"
+  },
+  "header":{
+    "appName":"CARDIO ANALYZER",
+    "date":"date",
+    "u":"University of Magdalena"
+  },
+  "footer":{
+    "version":"version"
   }
 }

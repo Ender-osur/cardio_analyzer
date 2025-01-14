@@ -4,12 +4,22 @@ import { Colors } from '../../../constants/Colors';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.light.background,
+    backgroundColor: Colors.light.backgroundAuth,
+    justifyContent: "center",
+    alignItems: "center"
   },
-  logo: {
-    width: 200,
-    height: 200,
-    alignSelf: 'center',
-    marginTop: 50,
+  textLogo: {
+    color: "#54d9bf",
+    fontSize: 36,
+    fontFamily: "Space-mono"
   },
+  resetButton: {
+    
+  },
+  header: {
+
+  },
+  main: {
+    
+  }
 });

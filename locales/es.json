@@ -29,11 +29,29 @@
     "email": "Correo electrónico",
     "password": "Contraseña",
     "confirmPassword": "Confirmar contraseña",
-    "submit": "Registrar"
+    "submit": "Registrar",
+    "back": "Volver a Iniciar sesión",
+    "reset": "Restablecer contraseña",
+    "login": "Iniciar sesión"
+  },
+  "resetPassword": {
+    "title": "Restablecer contraseña",
+    "email": "Correo electrónico",
+    "submit": "Enviar",
+    "back": "Volver a Iniciar sesión",
+    "reset": "Restablecer contraseña"
   },
   "errors": {
     "required": "Este campo es obligatorio",
     "invalidEmail": "Dirección de correo electrónico no válida",
     "passwordMismatch": "Las contraseñas no coinciden"
+  },
+  "header": {
+    "appName": "ANALIZADOR CARDÍACO",
+    "date": "fecha",
+    "u": "Universidad del Magdalena"
+  },
+  "footer": {
+    "version": "versión"
   }
 }

@@ -1,12 +1,14 @@
 export type UserState = {
-  user: {
-    name: string;
-    email: string;
-    password: string;
-    isAuthenticated: boolean;
-    token: string;
-  };
+  user: User;
 };
+
+export type User = {
+  name: string;
+  email: string;
+  password: string;
+  isAuthenticated: boolean;
+  token: string;
+}
 
 export type LanguageState = {
   language: string;

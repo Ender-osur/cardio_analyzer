@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 16,
+    gap: 10
   },
   title: {
     fontSize: 24,
@@ -12,11 +13,11 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   input: {
-    height: 40,
-    borderColor: 'gray',
-    borderWidth: 1,
-    marginBottom: 16,
-    paddingHorizontal: 8,
+    width: "100%",
+    padding: 10,
+    backgroundColor: "#fff",
+    borderRadius: 8,
+    marginBottom: 5,
   },
 });
 

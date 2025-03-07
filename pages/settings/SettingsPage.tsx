@@ -1,7 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import type { DrawerNavigationProps } from '@/types/navigation';
 
-const SettingsPage: React.FC = () => {
+interface SettingsPageProps {
+  navigation: DrawerNavigationProps;
+}
+
+const SettingsPage: React.FC<SettingsPageProps> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Settings Page</Text>

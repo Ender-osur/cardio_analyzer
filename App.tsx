@@ -1,8 +1,9 @@
 import "react-native-reanimated";
-import 'react-native-gesture-handler';
+import "react-native-gesture-handler";
+
 import { useEffect } from "react";
 import {
-  DarkTheme,
+  
   DefaultTheme,
   NavigationContainer,
 } from "@react-navigation/native";
@@ -36,21 +37,37 @@ const App = (): React.JSX.Element => {
 
   if (!loaded && !error) {
     return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>Cargando...</Text>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#004052",
+        }}
+      >
+        <Text style={{ color: "#fff", fontSize: 32 }}>
+          Cargando...
+        </Text>
       </View>
     );
   }
 
   return (
-    <NavigationContainer theme={scheme === "dark" ? DarkTheme : DefaultTheme}>
-      <StatusBar barStyle="default" />
-      <Provider store={store}>
+    <Provider store={store}>
+      <NavigationContainer
+        theme={{
+          dark: scheme === "dark",
+          colors: {
+            ...DefaultTheme.colors,
+            background: "#004052", 
+          },
+        }}
+      >
+        <StatusBar barStyle="default" />
         <AppNavigator />
-      </Provider>
-    </NavigationContainer>
+      </NavigationContainer>
+    </Provider>
   );
 };
-
 
 export default App;

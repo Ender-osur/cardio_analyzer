@@ -21,7 +21,9 @@
     "submit": "Enviar",
     "help": "Ayuda",
     "reset": "Restablecer contraseña",
-    "signup": "Registrarse"
+    "signup": "Registrarse",
+    "haventAccount":"No tienes una cuenta?",
+    "forgot":"Olvidaste tu contraseña?"
   },
   "signup": {
     "title": "Registrarse",
@@ -44,7 +46,9 @@
   "errors": {
     "required": "Este campo es obligatorio",
     "invalidEmail": "Dirección de correo electrónico no válida",
-    "passwordMismatch": "Las contraseñas no coinciden"
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "title": "Error",
+    "invalidCredentials":"Usuario o contraseña inválidos"
   },
   "header": {
     "appName": "ANALIZADOR CARDÍACO",
@@ -53,5 +57,9 @@
   },
   "footer": {
     "version": "versión"
+  },
+  "success": {
+    "login": "Inicio de sesión exitoso",
+    "register": "Registro exitoso"
   }
 }

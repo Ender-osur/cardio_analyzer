@@ -20,15 +20,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     overflow: "hidden",
-    width: 190,
-    aspectRatio: 1
+    width: 160,
+    aspectRatio: 1,
   },
   logo: {
-    width: 160,
-    height: 150,
-    borderRadius: 50,
+    width: 135,
+    height: 135,
     alignSelf: "center",
-    top: 10
+    top: 10,
   },
 });
 

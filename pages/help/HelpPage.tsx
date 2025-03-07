@@ -1,11 +1,16 @@
 import React from "react";
 import { View, Text, TextInput, Button } from "react-native";
 import { useColorScheme } from "react-native";
+import type { DrawerNavigationProps } from '@/types/navigation';
 
 import { styles } from "./HelpPage.style";
-import CommonButton from "../../../components/commonButton/CommonButton";
+import CommonButton from "../../components/commonButton/CommonButton";
 
-const HelpPage: React.FC = () => {
+interface HelpPageProps {
+  navigation: DrawerNavigationProps;
+}
+
+const HelpPage: React.FC<HelpPageProps> = ({ navigation }) => {
   const scheme = useColorScheme();
 
   const handleSubmit = () => {};

@@ -21,7 +21,9 @@
     "submit": "Submit",
     "help":"Help",
     "reset":"Reset password",
-    "signup":"Sign up"
+    "signup":"Sign up",
+    "haventAccount":"Don't have an account?",
+    "forgot":"Forgot your password?"
   },
   "signup": {
     "title": "Sign up",
@@ -41,10 +43,12 @@
     "back": "Back to Login",
     "reset": "Reset Password"
   },
-  "errors": {
+  "error": {
     "required": "This field is required",
     "invalidEmail": "Invalid email address",
-    "passwordMismatch": "Passwords do not match"
+    "passwordMismatch": "Passwords do not match",
+    "title":"Error",
+    "invalidCredentials":"Invalid username or password"
   },
   "header":{
     "appName":"CARDIO ANALYZER",
@@ -53,5 +57,9 @@
   },
   "footer":{
     "version":"version"
+  },
+  "success":{
+    "login":"Login successful",
+    "register":"Signup successful"
   }
 }
